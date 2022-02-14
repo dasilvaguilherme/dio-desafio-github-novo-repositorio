@@ -1,2 +1,22 @@
+Anotações dos codigos usados em GIT.
+
 Link para download do Git: https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Comandos Git.
+
+Status do Repositório:
+git status
+
+Clonar Repositório:
+git clone (Caminho ou URL do repositório)
+
+Adcionar no controle de versão local:
+git add . ou git add -t
+
+Adcionar no controle de versão da origem:
+git commit -m "Comentários (super importante comentarios coerente)"
+
+Mandar commits/alterações para nuvem:
+git push origin main
+
