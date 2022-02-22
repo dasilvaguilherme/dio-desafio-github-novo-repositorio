@@ -30,7 +30,7 @@ let lightColor = (element, number) => {
     setTimeout(() => {
         element.classList.add(`selected`);
     }, number - 250);
-    setTimeout(() =>{
+    setTimeout(() => {
         element.classList.remove(`selected`);
     });
 }
@@ -80,7 +80,7 @@ let nextlevel = () => {
 }
 
 //funcao para game over
-let gameover = () =>{
+let gameover = () => {
     alert(`Pontuação: ${score}!\nVocê perdeu o jogo!\nClique em OK para Iniciar um novo jogo.`);
     order = [];
     clickedOrder = [];
